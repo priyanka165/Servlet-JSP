@@ -1,0 +1,24 @@
+
+CREATE TABLE Game(GameId VARCHAR(5) PRIMARY KEY,GameName VARCHAR(30) UNIQUE
+,Available_game NUMBER(3),Price NUMBER(5,2));
+
+
+
+INSERT INTO Game VALUES('G101','NFS',5,150);
+
+
+
+INSERT INTO Game VALUES('G102','Ludo',5,175);
+
+
+
+INSERT INTO Game VALUES('G103','Chess',9,200);
+
+
+
+INSERT INTO Game VALUES('G104','COC',5,400);
+
+
+commit;
+
+ 
